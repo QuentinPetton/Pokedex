@@ -1,0 +1,22 @@
+<section>
+  <div class="grid">
+    <h1>Mes équipes</h1>
+    <button id="add-team-button">Ajouter une équipe</button>
+  </div>
+  
+  
+  <ul class="hidden" id="teams-container">
+    <!-- TODO: insert the real fetched teams here -->
+
+  </ul>
+  
+  <!-- TODO: display this div if no teams where found -->
+  <p class="hidden" id="no-teams-message">
+    Vous n'avez aucune équipe enregistrée pour le moment.
+  </p>
+</section>
+
+
+{{> addTeamModal }}
+{{> editTeamModal }}
+{{> deleteTeamModal }}

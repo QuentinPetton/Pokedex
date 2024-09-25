@@ -1,0 +1,46 @@
+<section>
+  <h1>Liste des Pokémons</h1>
+  
+  <ul id="pokemons-container"><!-- Insert Pokémons here --></ul>
+</section>
+
+
+
+<!-- Template for ONE Pokémon -->
+<template id="pokemon-template">
+  <li>
+    <a href="#" class="pokemon-link" slot="pokemon-link" data-navigo>
+    <article slot="pokemon-article">
+      <!-- <img slot="pokemon-img"> -->
+       <div class="container-background-image">
+
+        
+       </div>
+        
+        <div class="text-section">
+          <h4>
+            <span slot="pokemon-id"></span>
+            -
+            <span slot="pokemon-name"></span>
+          </h4>
+        </div>
+      
+
+      <div class="dropdown-container">
+        <div class="dropdown remove-team-hidden" slot="dropdown-removeTeam">
+          <button class="dropbtn removebtn">Retirer d'une team</button>
+          <div class="dropdown-content" slot="pokemon-removeTeam">
+            <!-- Insert Teams -->
+          </div>
+        </div>
+        <div class="dropdown hidden" slot="dropdown-addTeam">
+          <button class="dropbtn addbtn">Ajouter à une team</button>
+          <div class="dropdown-content" slot="pokemon-addTeam">
+             <!-- Insert Teams -->
+          </div>
+        </div>
+</div>
+      </article>
+      </a>
+  </li>
+</template>

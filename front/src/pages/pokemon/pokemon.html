@@ -1,0 +1,81 @@
+<div slot="compare-container" class="compare-container">
+    <div class="compare-controls">
+      <label for="compare-pokemon-select">Comparer avec :</label>
+      <select id="compare-pokemon-select">
+        <!-- Options ajoutées dynamiquement -->
+      </select>
+      <button id="compare-button">Comparer</button>
+    </div>
+<section>
+
+
+  <div class="container">
+    <div class="pokemon-info">
+        <h1 slot="pokemon-name">Nom du Pokémon</h1>
+        <img slot="pokemon-img" src="" alt="Image du Pokémon">
+        <div class="stats">
+            <div class="stat" slot="stat-hp">
+                <span class="label">PV</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+            <div class="stat" slot="stat-atk">
+                <span class="label">Attaque</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+            <div class="stat" slot="stat-def">
+                <span class="label">Défense</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+            <div class="stat" slot="stat-atk-spe">
+                <span class="label">Att. Spé</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+            <div class="stat" slot="stat-def-spe">
+                <span class="label">Déf. Spé</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+            <div class="stat" slot="stat-speed">
+                <span class="label">Vitesse</span>
+                <div class="bar"><span class="value">0</span></div>
+            </div>
+        </div>
+        <p slot="pokemon-type">Types</p>
+    </div>
+
+   
+
+        <div slot="compared-pokemon" class="pokemon-info hidden" id="pokemon2">
+            <h1 slot="pokemon2-name">Nom du Pokémon</h1>
+            <img slot="pokemon2-img" src="" alt="Image du Pokémon">
+            <div class="stats">
+                <div class="stat" slot="stat-hp2">
+                    <span class="label">PV</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+                <div class="stat" slot="stat-atk2">
+                    <span class="label">Attaque</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+                <div class="stat" slot="stat-def2">
+                    <span class="label">Défense</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+                <div class="stat" slot="stat-atk-spe2">
+                    <span class="label">Att. Spé</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+                <div class="stat" slot="stat-def-spe2">
+                    <span class="label">Déf. Spé</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+                <div class="stat" slot="stat-speed2">
+                    <span class="label">Vitesse</span>
+                    <div class="bar"><span class="value">0</span></div>
+                </div>
+            </div>
+            <p slot="pokemon-type2">Types</p>
+        </div>
+    </div>
+</div>
+
+</section>

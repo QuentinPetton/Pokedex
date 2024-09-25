@@ -1,0 +1,21 @@
+<dialog id="add-team-modal">
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev" data-close-modal></button>
+      <p><strong>💪 Créer une équipe</strong></p>
+    </header>
+    
+    <form id="add-team-form">
+      <label id="add-team-name">Nom de l'équipe</label>
+      <input for="add-team-name" name="name" placeholder="Mes Pokémons préférés..." required />
+      <label id="add-team-description">Description</label>
+      <input for="add-team-description" name="description" placeholder="Description de mon équipe..."/>
+
+      <footer class="grid">
+        <button type="submit">Créer</button>
+        <button type="button" class="secondary" data-close-modal>Annuler</button>
+      </footer>
+    </form>
+
+  </article>
+</dialog>

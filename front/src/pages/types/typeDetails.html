@@ -1,0 +1,24 @@
+<section>
+  <h1 slot="type-name">Liste des Pokémons</h1>
+  
+  <ul id="pokemons-container"><!-- Insert Pokémons here --></ul>
+</section>
+
+
+
+<!-- Template for ONE Pokémon -->
+<template id="pokemon-template">
+  <li>
+    <a href="#" slot="pokemon-link" data-navigo>
+      <article>
+        <h4>
+          <span slot="pokemon-id"></span>
+          -
+          <span slot="pokemon-name"></span>
+        </h4>
+
+        <img slot="pokemon-img">
+      </article>
+    </a>
+  </li>
+</template>

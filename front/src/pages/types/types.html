@@ -1,0 +1,21 @@
+<section>
+  <h1>Liste des types</h1>
+  
+  <ul id="types-container"><!-- Insert types here --></ul>
+</section>
+
+
+<template id="type-template">
+  <li>
+    <a href="#" slot="pokemon-link" data-navigo>
+      <article>
+        <h4>
+          <span slot="type-name"></span>
+        </h4>
+        <img slot="type-icon" src="" alt="">
+
+      
+      </article>
+    </a>
+  </li>
+</template>

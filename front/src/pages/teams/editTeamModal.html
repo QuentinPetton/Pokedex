@@ -1,0 +1,21 @@
+<dialog id="edit-team-modal">
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev" data-close-modal></button>
+      <p><strong>💪 Modifier une équipe</strong></p>
+    </header>
+    
+    <form id="edit-team-form">
+      <label id="edit-team-name">Nom de l'équipe</label>
+      <input for="edit-team-name" name="name" placeholder="Mes Pokémons préférés..." required />
+      <label id="edit-team-description">Description de l'équipe</label>
+      <input for="edit-team-description" name="description" placeholder="Description de mon équipe..."/>
+
+      <footer class="grid">
+        <button type="submit">Modifier</button>
+        <button type="button" class="secondary" data-close-modal>Annuler</button>
+      </footer>
+    </form>
+
+  </article>
+</dialog>

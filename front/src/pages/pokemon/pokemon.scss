@@ -1,0 +1,82 @@
+h1::before {
+  content: "✨";
+  margin-right: 1rem;
+}
+.container {
+
+  margin: 3em auto;
+  padding: 1em;
+  background-color: #992e2e;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.stat {
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 400px;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.bar {
+  position: relative;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar::before {
+  content: '';
+  display: block;
+  height: 100%;
+  background-color: #76c7c0;
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+section .container{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+#compare-button{
+  background-color: white;
+  color: #992e2e;
+  border: 1px solid #992e2e;
+  border-radius: 20px;
+}
+
+#compare-pokemon-select {
+  background-color: #992e2e;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+label {
+  color: white;
+}

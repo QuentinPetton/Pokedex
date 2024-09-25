@@ -1,0 +1,37 @@
+h1::before {
+  content: "🏷️";
+  margin-right: 1rem;
+}
+
+
+ul {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 1rem;
+}
+
+li {
+  list-style: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+article{
+background-color: initial;
+margin-bottom: 0;
+box-shadow: none;
+}
+
+h4 {
+  color: white;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-weight: 400;
+}
+
+h4 > span {
+  letter-spacing: 5px;
+}
+
+img{
+  width: 10%;
+}

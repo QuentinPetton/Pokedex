@@ -1,0 +1,50 @@
+h1::before {
+  content: "🤝";
+  margin-right: 1rem;
+}
+
+section > div {
+  margin-bottom: 2rem;
+}
+
+div > button {
+  height: fit-content;
+  margin: auto 0;
+}
+
+dialog footer button {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100px;
+}
+summary {
+  background-color: #992e2e;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+#add-team-button{
+  background-color: white;
+  color: #992e2e;
+  border-radius: 20px;
+  border: 1px solid #992e2e;
+}
+
+li {
+  list-style: none;
+}
+
+li details button{
+  background-color: white;
+  color: #992e2e;
+  border: 1px solid #992e2e;
+  border-radius: 20px;
+  padding: 0 1rem;
+  margin: 0 1rem 0 0;
+}
+
+p {
+  margin: 0.5rem 0;
+}

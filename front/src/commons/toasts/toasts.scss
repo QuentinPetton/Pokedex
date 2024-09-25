@@ -1,0 +1,31 @@
+$green-50: #D7FBC1;
+$green-800: #173806;
+
+.toast {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  width: 100%;
+
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+
+  opacity: 1;
+  transition: opacity 3s;
+
+  &.hidden {
+    opacity: 0;
+    transition: opacity 3s;
+  }
+
+  &.success {
+    background-color: $green-50;
+    color: $green-800;
+  }
+
+  &.success::before {
+    content: "✅";
+    margin-right: 0.5rem;
+  }
+}

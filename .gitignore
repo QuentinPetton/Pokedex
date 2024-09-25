@@ -1,0 +1,12 @@
+# Node 
+node_modules/
+
+# Client build
+dist/
+
+# Environment
+.env
+
+# VSCode
+.vscode
+

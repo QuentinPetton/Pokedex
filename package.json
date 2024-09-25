@@ -1,0 +1,19 @@
+{
+  "name": "pokegame",
+  "scripts": {
+    "postinstall": "npm run install:back && npm run install:front",
+    "install:back": "npm install --prefix back",
+    "install:front": "npm install --prefix front",
+    "db:reset": "npm run db:reset --prefix back",
+    "dev:back": "npm run dev --prefix back",
+    "dev:front": "npm run dev --prefix front",
+    "build": "npm run build --prefix front",
+    "start": "node back/index.js"
+  },
+  "type": "module",
+  "license": "ISC",
+  "author": "contact@oclock.io",
+  "devDependencies": {
+    "eslint": "^9.6.0"
+  }
+}
